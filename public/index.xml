@@ -6,8 +6,15 @@
     <description>Recent content on Eric&#39;s Blog</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jul 2025 18:08:02 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 15:45:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/Eric-s-Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的痛苦1</title>
+      <link>http://localhost:1313/Eric-s-Blog/post/post2/</link>
+      <pubDate>Wed, 16 Jul 2025 15:45:42 +0800</pubDate>
+      <guid>http://localhost:1313/Eric-s-Blog/post/post2/</guid>
+      <description>记录一下我的情绪低落的时刻</description>
+    </item>
     <item>
       <title>构想一个智能todo项目进度管理软件</title>
       <link>http://localhost:1313/Eric-s-Blog/post/post1/</link>
