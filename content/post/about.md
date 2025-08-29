@@ -69,3 +69,15 @@ Eric有时有意的减少自己的存在感，因为他觉得这样当别人开�
 实际上主要难点在hugo主题上，试了好几个主题，有的是主题太老，使用了不支持的包，总之历经千辛万苦（并非），Eric找到了PaperMod这个主题，符合简约的风格并且配置非常简单，Eric非常感谢PaperMod项目。
 
 该博客以后会随缘更新各种技术相关和技术不相关的内容（废话？），也可能一直不更新，不更新就是Eric在睡觉。
+
+## 推荐链接
+
+[Eric的bilibili](https://space.bilibilihttps://sonnycalcr.github.io/.com/399635219)
+
+[Eric的Github](https://github.com/2667783575/)
+
+[PaperMod官网](https://themes.gohugo.io/themes/hugo-papermod/)
+
+[spiderboy的博客](https://superspiderboy.github.io/search/)
+
+[SonnyCalcr的博客(提供了博客创建教程)](https://sonnycalcr.github.io/)  

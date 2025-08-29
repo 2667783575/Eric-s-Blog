@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>自我介绍 on Eric&#39;s Blog</title>
-    <link>http://localhost:46833/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</link>
+    <link>http://localhost:36099/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</link>
     <description>Recent content in 自我介绍 on Eric&#39;s Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 14 Jul 2025 18:08:02 +0800</lastBuildDate>
-    <atom:link href="http://localhost:46833/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:36099/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>http://localhost:46833/Eric-s-Blog/post/about/</link>
+      <link>http://localhost:36099/Eric-s-Blog/post/about/</link>
       <pubDate>Mon, 14 Jul 2025 18:08:02 +0800</pubDate>
-      <guid>http://localhost:46833/Eric-s-Blog/post/about/</guid>
+      <guid>http://localhost:36099/Eric-s-Blog/post/about/</guid>
       <description>关于作者</description>
     </item>
   </channel>
