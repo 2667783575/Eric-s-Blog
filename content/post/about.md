@@ -72,7 +72,7 @@ Eric有时有意的减少自己的存在感，因为他觉得这样当别人开�
 
 ## 推荐链接
 
-[Eric的bilibili](https://space.bilibilihttps://sonnycalcr.github.io/.com/399635219)
+[Eric的bilibili](https://space.bilibili.com/399635219)
 
 [Eric的Github](https://github.com/2667783575/)
 
