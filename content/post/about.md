@@ -78,6 +78,6 @@ Eric有时有意的减少自己的存在感，因为他觉得这样当别人开�
 
 [PaperMod官网](https://themes.gohugo.io/themes/hugo-papermod/)
 
-[spiderboy的博客](https://superspiderboy.github.io/search/)
+[spiderboy的博客](https://superspiderboy.github.io/)
 
 [SonnyCalcr的博客(提供了博客创建教程)](https://sonnycalcr.github.io/)  
