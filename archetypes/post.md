@@ -18,4 +18,6 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 title: ""
+categories: ""
+tags: [""]
 ---

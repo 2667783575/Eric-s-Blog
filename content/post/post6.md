@@ -17,7 +17,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-title: "OODP3 里氏替换原则(LSP)"
+title: "OODP2 里氏替换原则(LSP)"
+categories: "技术相关"
+tags: ["OODP","C#"]
 ---
 
 # 父类的对象可以被子类的对象替换，而程序的行为不会发生变化

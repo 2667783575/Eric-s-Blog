@@ -18,6 +18,8 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 title: "关于cpp中const返回值"
+categories: "技术相关"
+tags: ["cpp"]
 ---
 
 ## 背景

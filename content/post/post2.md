@@ -18,7 +18,10 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 title: "我的痛苦1"
+categories: "生活相关"
+tags: ["夏几把想"]
 ---
+
 
 非常抱歉总是在博客里写废话，但是生活的轨迹总是偏离我的计划，于是悲伤和懊恼就随之而来。
 

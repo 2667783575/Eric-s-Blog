@@ -17,7 +17,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-title: "OODP4 接口隔离原则(ISP)"
+title: "OODP3 接口隔离原则(ISP)"
+categories: "技术相关"
+tags: ["OODP","C#"]
 ---
 
 # 不应强迫客户端依赖它不使用的方法

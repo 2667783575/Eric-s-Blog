@@ -17,7 +17,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-title: "OODP1 单一职责原则(SRP)"
+title: "OODP0 单一职责原则(SRP)"
+categories: "技术相关"
+tags: ["OODP","C#"]
 ---
 
 # 一个类应该仅有一个引起它变化的原因

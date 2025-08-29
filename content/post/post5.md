@@ -17,7 +17,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-title: "OODP2 开闭原则(OCP)"
+title: "OODP1 开闭原则(OCP)"
+categories: "技术相关"
+tags: ["OODP","C#"]
 ---
 
 # 软件实体应对拓展开放，对修改关闭

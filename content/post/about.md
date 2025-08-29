@@ -1,12 +1,12 @@
 ---
-date: '2025-07-15T15:05:32+08:00'
+date: '2025-07-14T18:08:02+08:00'
 author: "Eric"
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-description: "About the blog"
+description: "关于作者"
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -17,7 +17,10 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-title: 'About'
+title: "about"
+categories: ["生活"]
+tags: ["自我介绍"]
+
 ---
 
 这是博客的介绍，同时也是该博客的第一篇文章。
