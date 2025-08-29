@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Eric&#39;s Blog</title>
-    <link>http://localhost:36099/Eric-s-Blog/tags/</link>
+    <link>http://localhost:1313/Eric-s-Blog/tags/</link>
     <description>Recent content in Tags on Eric&#39;s Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 29 Aug 2025 16:43:20 +0800</lastBuildDate>
-    <atom:link href="http://localhost:36099/Eric-s-Blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Eric-s-Blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C#</title>
-      <link>http://localhost:36099/Eric-s-Blog/tags/c%23/</link>
+      <link>http://localhost:1313/Eric-s-Blog/tags/c%23/</link>
       <pubDate>Fri, 29 Aug 2025 16:43:20 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/tags/c%23/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/c%23/</guid>
       <description></description>
     </item>
     <item>
       <title>OODP</title>
-      <link>http://localhost:36099/Eric-s-Blog/tags/oodp/</link>
+      <link>http://localhost:1313/Eric-s-Blog/tags/oodp/</link>
       <pubDate>Fri, 29 Aug 2025 16:43:20 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/tags/oodp/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/oodp/</guid>
       <description></description>
     </item>
     <item>
       <title>Cpp</title>
-      <link>http://localhost:36099/Eric-s-Blog/tags/cpp/</link>
+      <link>http://localhost:1313/Eric-s-Blog/tags/cpp/</link>
       <pubDate>Wed, 20 Aug 2025 18:25:46 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/tags/cpp/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
       <title>夏几把想</title>
-      <link>http://localhost:36099/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</link>
+      <link>http://localhost:1313/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</link>
       <pubDate>Wed, 16 Jul 2025 15:45:42 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</guid>
       <description></description>
     </item>
     <item>
       <title>没有完成</title>
-      <link>http://localhost:36099/Eric-s-Blog/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/</link>
+      <link>http://localhost:1313/Eric-s-Blog/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/</link>
       <pubDate>Tue, 15 Jul 2025 18:08:02 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/%E6%B2%A1%E6%9C%89%E5%AE%8C%E6%88%90/</guid>
       <description></description>
     </item>
     <item>
       <title>自我介绍</title>
-      <link>http://localhost:36099/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</link>
+      <link>http://localhost:1313/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Mon, 14 Jul 2025 18:08:02 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</guid>
       <description></description>
     </item>
   </channel>

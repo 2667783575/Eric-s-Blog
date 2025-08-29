@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>夏几把想 on Eric&#39;s Blog</title>
-    <link>http://localhost:36099/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</link>
+    <link>http://localhost:1313/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/</link>
     <description>Recent content in 夏几把想 on Eric&#39;s Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 16 Jul 2025 15:45:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:36099/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Eric-s-Blog/tags/%E5%A4%8F%E5%87%A0%E6%8A%8A%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的痛苦1</title>
-      <link>http://localhost:36099/Eric-s-Blog/post/post2/</link>
+      <link>http://localhost:1313/Eric-s-Blog/post/post2/</link>
       <pubDate>Wed, 16 Jul 2025 15:45:42 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/post/post2/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/post/post2/</guid>
       <description>记录一下我的情绪低落的时刻</description>
     </item>
     <item>
       <title>构想一个智能todo项目进度管理软件</title>
-      <link>http://localhost:36099/Eric-s-Blog/post/post1/</link>
+      <link>http://localhost:1313/Eric-s-Blog/post/post1/</link>
       <pubDate>Tue, 15 Jul 2025 18:08:02 +0800</pubDate>
-      <guid>http://localhost:36099/Eric-s-Blog/post/post1/</guid>
+      <guid>http://localhost:1313/Eric-s-Blog/post/post1/</guid>
       <description>Idea About A Smart Todo Project</description>
     </item>
   </channel>
