@@ -30,53 +30,53 @@ tags: ["OODP","C#"]
 
 
 ``` C#
-    public enum Color
-    {
-        Red,
-        Green,
-        Blue,
-    }
+public enum Color
+{
+    Red,
+    Green,
+    Blue,
+}
 
-    public enum Size
-    {
-        Small, Medium, Large, Yuge
-    }
+public enum Size
+{
+    Small, Medium, Large, Yuge
+}
 
-    public class Product
-    {
-        public string Name;
-        public Color Color;
-        public Size Size;
+public class Product
+{
+    public string Name;
+    public Color Color;
+    public Size Size;
 
-        public Product(string name, Color color, Size size)
+    public Product(string name, Color color, Size size)
+    {
+        if (name == null)
         {
-            if (name == null)
-            {
-                throw new ArgumentNullException(paramName: nameof(name));
-            }
-
-            Name = name;
-            Color = color;
-            Size = size;
-            
+            throw new ArgumentNullException(paramName: nameof(name));
         }
+
+        Name = name;
+        Color = color;
+        Size = size;
+        
     }
+}
 ```
 
 我们有一个产品类，上级需要我们使用size过滤产品，现在我们来做产品的过滤类
 
 ``` C#
 
-    public class ProductFilter
+public class ProductFilter
+{
+    public static IEnumerable<Product> FilterBySize(IEnumerable<Product> products, Size size)
     {
-        public static IEnumerable<Product> FilterBySize(IEnumerable<Product> products, Size size)
-        {
-            foreach(var p in products)
-                if (p.Size == size)
-                    yield return p;
-            
-        }
+        foreach(var p in products)
+            if (p.Size == size)
+                yield return p;
+        
     }
+}
 ```
 注意到，如果上级又需要根据color过滤产品，我们又需要打开ProductFilter类，添加FilterByColor，而如果上级又需要我们同时根据color和size过滤产品，我们还需要再添加FilterByColorAndSize。
 
@@ -86,63 +86,63 @@ tags: ["OODP","C#"]
 
 首先我们定义两个接口
 ```C#
-    public interface ISpecification<in T>
-    {
-        bool IsSatisfied(T t);
-    }
+public interface ISpecification<in T>
+{
+    bool IsSatisfied(T t);
+}
 
-    public interface IFilter<T>
-    {
-        IEnumerable<T> Filter(IEnumerable<T> items, ISpecification<T> spec);
-    }
+public interface IFilter<T>
+{
+    IEnumerable<T> Filter(IEnumerable<T> items, ISpecification<T> spec);
+}
 ```
 可以理解成ISpecification处理t是否满足某个条件，而IFilter返回传入的items中所有满足传入的spec规格的项目。
 
 那么此时Filter只要这样写，之后便可以固定住不再开放修改了。
 ```C#
-    public class BetterFilter : IFilter<Product>
+public class BetterFilter : IFilter<Product>
+{
+    public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
     {
-        public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
+        foreach (var i in items)
         {
-            foreach (var i in items)
+            if (spec.IsSatisfied(i))
             {
-                if (spec.IsSatisfied(i))
-                {
-                    yield return i;
-                }
+                yield return i;
             }
         }
     }
+}
 ```
 
 而基础的规格类也很简单
 
 ```C#
-    public class SizeSpecification(Size size) : ISpecification<Product>
-    {
-        public bool IsSatisfied(Product t) => t.Size == size;
-        
-    }
-    public class ColorSpecification(Color color) : ISpecification<Product>
-    {
-        public bool IsSatisfied(Product t) => t.Color == color;
-    }
+public class SizeSpecification(Size size) : ISpecification<Product>
+{
+    public bool IsSatisfied(Product t) => t.Size == size;
+    
+}
+public class ColorSpecification(Color color) : ISpecification<Product>
+{
+    public bool IsSatisfied(Product t) => t.Color == color;
+}
 
 ```
 
 如果我们需要规格的组合
 
 ```C#
-    public class AndSpecification<T>(ISpecification<T> first, ISpecification<T> second) : ISpecification<T>
+public class AndSpecification<T>(ISpecification<T> first, ISpecification<T> second) : ISpecification<T>
+{
+    private ISpecification<T> _first = first ?? throw new ArgumentNullException(paramName: nameof(first)), _second = second ?? throw new ArgumentNullException(paramName: nameof(second));
+
+
+    public bool IsSatisfied(T t)
     {
-        private ISpecification<T> _first = first ?? throw new ArgumentNullException(paramName: nameof(first)), _second = second ?? throw new ArgumentNullException(paramName: nameof(second));
-
-
-        public bool IsSatisfied(T t)
-        {
-            return _first.IsSatisfied(t) && _second.IsSatisfied(t);
-        }
+        return _first.IsSatisfied(t) && _second.IsSatisfied(t);
     }
+}
 ```
 
 只需要用AndSpecification将不同的Specification结合到一起生成新的Specification即可。

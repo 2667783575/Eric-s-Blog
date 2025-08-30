@@ -12,7 +12,7 @@ minify:
   disableXML: true
   minifyOutput: true
 
-  params:
+  
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Eric's Blog
   description: "Eric's Blog"

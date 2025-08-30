@@ -28,57 +28,57 @@ tags: ["OODP","C#"]
 
 我们有Rectangle类
 ```C#
-    public class Rectangle
+public class Rectangle
+{
+    public int Height{get; set; }
+    public int Width { get; set; }
+
+    public Rectangle()
     {
-        public int Height{get; set; }
-        public int Width { get; set; }
-
-        public Rectangle()
-        {
-            
-        }
-
-        public Rectangle(int width, int height)
-        {
-            Width = width;
-            Height = height;
-        }
-
-        public override string ToString()
-        {
-            return $"{nameof(Width)}: {Height}, {nameof(Height)}: {Height}";
-        }
+        
     }
+
+    public Rectangle(int width, int height)
+    {
+        Width = width;
+        Height = height;
+    }
+
+    public override string ToString()
+    {
+        return $"{nameof(Width)}: {Height}, {nameof(Height)}: {Height}";
+    }
+}
 ```
 
 基于Rectangle类再写Square类
 
 ```C#
-    public class Square : Rectangle
+public class Square : Rectangle
+{
+    public new int Width
     {
-        public new int Width
-        {
-            set { base.Width = base.Height = value; }
-        }
-
-        public new int Height
-        {
-            set { base.Width = base.Height = value; }   
-        }
+        set { base.Width = base.Height = value; }
     }
+
+    public new int Height
+    {
+        set { base.Width = base.Height = value; }   
+    }
+}
 ```
 注意到我们用new关键字hide了父类的Width和Height
 
 此时Square和Rectangle都可以正常工作
 
 ```C#
-            Rectangle rc = new Rectangle();
-            rc.Width = 20;
-            rc.Height = 40;
-            Console.WriteLine("Area: {0}", Area(rc));
-            Square sq = new Square();
-            sq.Width = 4;
-            Console.WriteLine("Area {0}", Area(sq));
+Rectangle rc = new Rectangle();
+rc.Width = 20;
+rc.Height = 40;
+Console.WriteLine("Area: {0}", Area(rc));
+Square sq = new Square();
+sq.Width = 4;
+Console.WriteLine("Area {0}", Area(sq));
 ```
 可以看到结果正常
 
@@ -87,9 +87,9 @@ tags: ["OODP","C#"]
 那么**问题发生了**
 
 ```C#
-            Rectangle sq = new Square();
-            sq.Width = 4;
-            Console.WriteLine("Area {0}", Area(sq));
+Rectangle sq = new Square();
+sq.Width = 4;
+Console.WriteLine("Area {0}", Area(sq));
 ```
 
 ```
@@ -102,22 +102,22 @@ tags: ["OODP","C#"]
 将Rectangle中Width和Height的get,set修改为虚，使父类引用执行子类的函数
 
 ```C#
-        public virtual int Height{get; set; }
-        public virtual int Width { get; set; }
+public virtual int Height{get; set; }
+public virtual int Width { get; set; }
 ```
 
 同时将Square中的用new来hide父类型改为用override来重写父类虚函数
 
 ```C#
-        public override int Width
-        {
-            set { base.Width = base.Height = value; }
-        }
+public override int Width
+{
+    set { base.Width = base.Height = value; }
+}
 
-        public override int Height
-        {
-            set { base.Width = base.Height = value; }   
-        }
+public override int Height
+{
+    set { base.Width = base.Height = value; }   
+}
 ```
 
 则现在不会出现错误
