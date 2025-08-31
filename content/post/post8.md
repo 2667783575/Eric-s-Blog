@@ -134,7 +134,7 @@ public Demo(IRelationshipBrowser browser)
 
 低层模块的实现也依赖接口的抽象，即低层模块必须实现该接口的功能。
 
-```C#
+*//*/
 public class Relationships : IRelationshipBrowser
 {
     private List<(Person, Relationship,Person)> relations = [];
