@@ -17,7 +17,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-title: "Gamma 分类"
+title: "OODP5 Gamma分类"
 categories: "技术相关"
 tags: ["C#","设计模式"]
 ---
