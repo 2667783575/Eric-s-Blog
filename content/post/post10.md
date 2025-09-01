@@ -18,8 +18,8 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 title: "OODP6 构造器模式 (Builder)"
-categories: ""
-tags: [""]
+categories: "技术相关"
+tags: ["C#","OODP"]
 ---
 
 # 提供一个简明的 API 来逐步构建一个复杂对象，将其构建过程与它的表示分离开。
