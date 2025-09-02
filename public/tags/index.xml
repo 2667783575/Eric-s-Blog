@@ -6,13 +6,34 @@
     <description>Recent content in Tags on Eric&#39;s Blog</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 31 Aug 2025 20:41:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 21:22:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/Eric-s-Blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/Eric-s-Blog/tags/python/</link>
+      <pubDate>Tue, 02 Sep 2025 21:22:10 +0800</pubDate>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>小东西</title>
+      <link>http://localhost:1313/Eric-s-Blog/tags/%E5%B0%8F%E4%B8%9C%E8%A5%BF/</link>
+      <pubDate>Tue, 02 Sep 2025 21:22:10 +0800</pubDate>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/%E5%B0%8F%E4%B8%9C%E8%A5%BF/</guid>
+      <description></description>
+    </item>
     <item>
       <title>C#</title>
       <link>http://localhost:1313/Eric-s-Blog/tags/c%23/</link>
-      <pubDate>Sun, 31 Aug 2025 20:41:38 +0800</pubDate>
+      <pubDate>Sun, 31 Aug 2025 21:33:39 +0800</pubDate>
       <guid>http://localhost:1313/Eric-s-Blog/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OODP</title>
+      <link>http://localhost:1313/Eric-s-Blog/tags/oodp/</link>
+      <pubDate>Sun, 31 Aug 2025 21:33:39 +0800</pubDate>
+      <guid>http://localhost:1313/Eric-s-Blog/tags/oodp/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +41,6 @@
       <link>http://localhost:1313/Eric-s-Blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Sun, 31 Aug 2025 20:41:38 +0800</pubDate>
       <guid>http://localhost:1313/Eric-s-Blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OODP</title>
-      <link>http://localhost:1313/Eric-s-Blog/tags/oodp/</link>
-      <pubDate>Sat, 30 Aug 2025 15:39:52 +0800</pubDate>
-      <guid>http://localhost:1313/Eric-s-Blog/tags/oodp/</guid>
       <description></description>
     </item>
     <item>
